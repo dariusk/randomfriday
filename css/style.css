@@ -1,6 +1,6 @@
 body {
   margin: 0px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto Slab', serif;
   font-size: 20px;
   color: rgba(0,0,0,0.7);
 }
@@ -59,6 +59,6 @@ section {
   height: 50px;
   width: 250px;
   font-size: 20px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto Slab', serif;
   margin-bottom: 20px;
 }
