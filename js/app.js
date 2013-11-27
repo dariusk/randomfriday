@@ -7,7 +7,7 @@ Array.prototype.pick = function() {
 };
 
 function generate() {
-  var generatedText = '"This is the single most ' + adjs.pick() + ' thing that has ever happened in the history of ' + nouns.pick().pluralize() + '."<br>--<em>' + nouns.pick().titleize() + ' Weekly</em>';
+  var generatedText = '<div class="inner">"This is the single most ' + adjs.pick() + ' thing that has ever happened in the history of ' + nouns.pick().pluralize() + '."<br>--<em>' + nouns.pick().titleize() + ' Weekly</em></div>';
   var sharedText = 'Experience Black Friday the way it was meant to be experienced: entirely at random.';
   $('#content').html(generatedText);
   var shareUrl = window.location.href.split('?')[0];

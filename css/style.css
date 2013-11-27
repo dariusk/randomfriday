@@ -37,9 +37,6 @@ section {
   max-width: 600px;
   margin: 0 auto;
 }
-.end .inner {
-  margin: 0;
-}
 #headers {
   background: black;
   color: white;
