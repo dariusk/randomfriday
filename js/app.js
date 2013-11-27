@@ -38,12 +38,22 @@ function getWords(suppressGenerate) {
     })
   ).done(function(noun_data, verb_data, adj_data) {
     nouns = $.map(noun_data[0], function(el) { return el.word; });
+    nouns = sanitize(nouns);
     verbs = $.map(verb_data[0], function(el) { return el.word; });
+    verbs = sanitize(verbs);
     adjs = $.map(adj_data[0], function(el) { return el.word; });
+    adjs = sanitize(adjs);
     if (!suppressGenerate) {
       generate();
     }
   });
+}
+
+function sanitize(arr) {
+  for (var i=0; i<blacklist.length; i++) {
+    arr = arr.filter(function(el) { return el.indexOf(blacklist[i]) < 0 });
+  }
+  return arr;
 }
 
 $('#generate').click(function() { generate(); });
