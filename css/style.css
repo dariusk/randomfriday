@@ -1,17 +1,17 @@
 body {
-  margin: 30px;
-  font-family: sans-serif;
-  width: 500px;
-}
-h1 {
-  margin-bottom: -20px;
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: rgba(0,0,0,0.5);
 }
 h2 {
-  color: rgba(0,0,0,0.5);
+  margin: 0;
+  font-size: 72px;
 }
 h3 {
-  margin-top: -20px;
-  color: rgba(0,0,0,0.5);
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 36px;
 }
 a {
   color: rgba(0,0,255,0.45);
@@ -22,4 +22,39 @@ li {
 form {
   margin-right: 20px;
   float: left;
+}
+section {
+  text-align: center;
+  padding: 10% 5% 10% 5%;
+}
+.end {
+  text-align: left;
+  padding: 0;
+  margin: 30px;
+}
+.inner {
+  min-width: 300px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.end .inner {
+  margin: 0;
+}
+#headers {
+  background: black;
+  color: white;
+}
+#welcome {
+  background: white;
+}
+#maybe {
+  background: black;
+  color: white;
+}
+#history {
+  background: white;
+}
+#play {
+  background: black;
+  color: white;
 }
