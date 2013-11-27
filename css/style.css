@@ -2,7 +2,7 @@ body {
   margin: 0px;
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
-  color: rgba(0,0,0,0.5);
+  color: rgba(0,0,0,0.7);
 }
 h2 {
   margin: 0;
@@ -14,7 +14,7 @@ h3 {
   font-size: 36px;
 }
 a {
-  color: rgba(0,0,255,0.45);
+  color: rgba(0,0,255,0.65);
 }
 li {
   margin-bottom: 10px;
@@ -54,4 +54,11 @@ section {
 #play {
   background: black;
   color: white;
+}
+#submit {
+  height: 50px;
+  width: 250px;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 20px;
 }

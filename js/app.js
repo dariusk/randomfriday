@@ -13,7 +13,7 @@ function generate() {
   var shareUrl = window.location.href.split('?')[0];
   $('#share').attr('href', shareUrl);
   $('.twitter-share-button').remove();
-  $('#twitterShare').html('<a href="https://twitter.com/share" class="twitter-share-button" data-url="' + shareUrl + '" data-text="' + sharedText + '" data-lang="en">Tweet</a>');
+  $('#twitterShare').html('<a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="' + shareUrl + '" data-text="' + sharedText + '" data-lang="en">Tweet</a>');
   if (twttr.widgets) {
     twttr.widgets.load();
   }
